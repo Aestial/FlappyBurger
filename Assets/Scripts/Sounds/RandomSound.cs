@@ -15,7 +15,6 @@ public class RandomSound : MonoBehaviour
     public void PlayOneShot()
     {
         int index = Random.Range(0, sounds.Length);
-        Debug.Log("Playing sound: " + index);
         audioSource.PlayOneShot(sounds[index].clip, sounds[index].volume);
     }
 }

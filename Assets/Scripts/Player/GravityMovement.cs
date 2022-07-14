@@ -26,7 +26,6 @@ public class GravityMovement : MonoBehaviour
     {
         if (hasJumped)
         {
-            Debug.Log("Jumped");
             hasJumped = false;
             movement = Vector2.up * jumpForce;
             onJump.Invoke();

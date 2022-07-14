@@ -32,7 +32,8 @@ public class ObstacleSpawner : MonoBehaviour
     private void Spawn()
     {
         GameObject obstacle = Instantiate(obstaclePrefab, transform);
-        obstacle.transform.localPosition = new Vector2(0, heightVariation * Random.Range(-1, 1) + heightVariationOffset);
+        float height = Random.Range(-heightVariation + heightVariationOffset, heightVariation + heightVariationOffset);
+        obstacle.transform.localPosition = new Vector2(0, height);
         obstacle.GetComponent<GapDistance>().distance = gapDistance;
     }
 }

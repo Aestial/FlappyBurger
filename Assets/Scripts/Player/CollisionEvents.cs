@@ -15,7 +15,7 @@ public class CollisionEvents : MonoBehaviour
                 onScoreTrigger.Invoke();
                 break;
             default:
-                Debug.Log("Unknown Trigger");
+                Debug.LogWarning("Unknown Trigger");
                 break;
         }
     }
