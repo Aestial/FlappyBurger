@@ -48,3 +48,14 @@ The following packages were updated:
   com.unity.2d.animation from version 5.0.1 to 5.0.4
   com.unity.2d.psdimporter from version 4.0.1 to 4.0.2
   com.unity.2d.spriteshape from version 5.0.1 to 5.1.1
+
+=== Mon Sep 26 15:32:55 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.animation from version 5.0.10 to 7.0.6
+  com.unity.2d.pixel-perfect from version 4.0.1 to 5.0.1
+  com.unity.2d.spriteshape from version 5.1.7 to 7.0.5
+  com.unity.timeline from version 1.4.8 to 1.6.4
