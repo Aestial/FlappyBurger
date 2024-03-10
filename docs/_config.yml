@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal
+title: Flappy Burger
+description: Flappy Burger the video game landing page
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
