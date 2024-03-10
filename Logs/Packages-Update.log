@@ -59,3 +59,18 @@ The following packages were updated:
   com.unity.2d.pixel-perfect from version 4.0.1 to 5.0.1
   com.unity.2d.spriteshape from version 5.1.7 to 7.0.5
   com.unity.timeline from version 1.4.8 to 1.6.4
+
+=== Sat Mar  9 20:24:40 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.5
+The following packages were updated:
+  com.unity.2d.animation from version 7.0.6 to 9.1.0
+  com.unity.2d.pixel-perfect from version 5.0.1 to 5.0.3
+  com.unity.2d.spriteshape from version 7.0.5 to 9.0.2
+  com.unity.test-framework from version 1.1.31 to 1.1.33
+  com.unity.timeline from version 1.6.4 to 1.7.6
+  com.unity.toolchain.macos-x86_64-linux-x86_64 from version 2.0.2 to 2.0.4
